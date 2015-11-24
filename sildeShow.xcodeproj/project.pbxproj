@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5150DBE31C047835006B51D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5150DBE21C047835006B51D5 /* main.m */; };
+		5150DBE61C047835006B51D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5150DBE51C047835006B51D5 /* AppDelegate.m */; };
+		5150DBEE1C047835006B51D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5150DBED1C047835006B51D5 /* Assets.xcassets */; };
+		5150DBF11C047835006B51D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5150DBEF1C047835006B51D5 /* LaunchScreen.storyboard */; };
+		5150DBFC1C047835006B51D5 /* sildeShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5150DBFB1C047835006B51D5 /* sildeShowTests.m */; };
+		5150DC071C047835006B51D5 /* sildeShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5150DC061C047835006B51D5 /* sildeShowUITests.m */; };
+		5150DC161C0478AC006B51D5 /* XZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5150DC151C0478AC006B51D5 /* XZViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5150DBF81C047835006B51D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5150DBD61C047835006B51D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5150DBDD1C047835006B51D5;
+			remoteInfo = sildeShow;
+		};
+		5150DC031C047835006B51D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5150DBD61C047835006B51D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5150DBDD1C047835006B51D5;
+			remoteInfo = sildeShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5150DBDE1C047835006B51D5 /* sildeShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sildeShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5150DBE21C047835006B51D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5150DBE41C047835006B51D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5150DBE51C047835006B51D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5150DBED1C047835006B51D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5150DBF01C047835006B51D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5150DBF21C047835006B51D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5150DBF71C047835006B51D5 /* sildeShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sildeShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5150DBFB1C047835006B51D5 /* sildeShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sildeShowTests.m; sourceTree = "<group>"; };
+		5150DBFD1C047835006B51D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5150DC021C047835006B51D5 /* sildeShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sildeShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5150DC061C047835006B51D5 /* sildeShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sildeShowUITests.m; sourceTree = "<group>"; };
+		5150DC081C047835006B51D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5150DC141C0478AC006B51D5 /* XZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZViewController.h; sourceTree = "<group>"; };
+		5150DC151C0478AC006B51D5 /* XZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5150DBDB1C047835006B51D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5150DBF41C047835006B51D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5150DBFF1C047835006B51D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5150DBD51C047835006B51D5 = {
+			isa = PBXGroup;
+			children = (
+				5150DBE01C047835006B51D5 /* sildeShow */,
+				5150DBFA1C047835006B51D5 /* sildeShowTests */,
+				5150DC051C047835006B51D5 /* sildeShowUITests */,
+				5150DBDF1C047835006B51D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5150DBDF1C047835006B51D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5150DBDE1C047835006B51D5 /* sildeShow.app */,
+				5150DBF71C047835006B51D5 /* sildeShowTests.xctest */,
+				5150DC021C047835006B51D5 /* sildeShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5150DBE01C047835006B51D5 /* sildeShow */ = {
+			isa = PBXGroup;
+			children = (
+				5150DBE41C047835006B51D5 /* AppDelegate.h */,
+				5150DBE51C047835006B51D5 /* AppDelegate.m */,
+				5150DC141C0478AC006B51D5 /* XZViewController.h */,
+				5150DC151C0478AC006B51D5 /* XZViewController.m */,
+				5150DBED1C047835006B51D5 /* Assets.xcassets */,
+				5150DBEF1C047835006B51D5 /* LaunchScreen.storyboard */,
+				5150DBF21C047835006B51D5 /* Info.plist */,
+				5150DBE11C047835006B51D5 /* Supporting Files */,
+			);
+			path = sildeShow;
+			sourceTree = "<group>";
+		};
+		5150DBE11C047835006B51D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5150DBE21C047835006B51D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5150DBFA1C047835006B51D5 /* sildeShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				5150DBFB1C047835006B51D5 /* sildeShowTests.m */,
+				5150DBFD1C047835006B51D5 /* Info.plist */,
+			);
+			path = sildeShowTests;
+			sourceTree = "<group>";
+		};
+		5150DC051C047835006B51D5 /* sildeShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5150DC061C047835006B51D5 /* sildeShowUITests.m */,
+				5150DC081C047835006B51D5 /* Info.plist */,
+			);
+			path = sildeShowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5150DBDD1C047835006B51D5 /* sildeShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5150DC0B1C047835006B51D5 /* Build configuration list for PBXNativeTarget "sildeShow" */;
+			buildPhases = (
+				5150DBDA1C047835006B51D5 /* Sources */,
+				5150DBDB1C047835006B51D5 /* Frameworks */,
+				5150DBDC1C047835006B51D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sildeShow;
+			productName = sildeShow;
+			productReference = 5150DBDE1C047835006B51D5 /* sildeShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5150DBF61C047835006B51D5 /* sildeShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5150DC0E1C047835006B51D5 /* Build configuration list for PBXNativeTarget "sildeShowTests" */;
+			buildPhases = (
+				5150DBF31C047835006B51D5 /* Sources */,
+				5150DBF41C047835006B51D5 /* Frameworks */,
+				5150DBF51C047835006B51D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5150DBF91C047835006B51D5 /* PBXTargetDependency */,
+			);
+			name = sildeShowTests;
+			productName = sildeShowTests;
+			productReference = 5150DBF71C047835006B51D5 /* sildeShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5150DC011C047835006B51D5 /* sildeShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5150DC111C047835006B51D5 /* Build configuration list for PBXNativeTarget "sildeShowUITests" */;
+			buildPhases = (
+				5150DBFE1C047835006B51D5 /* Sources */,
+				5150DBFF1C047835006B51D5 /* Frameworks */,
+				5150DC001C047835006B51D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5150DC041C047835006B51D5 /* PBXTargetDependency */,
+			);
+			name = sildeShowUITests;
+			productName = sildeShowUITests;
+			productReference = 5150DC021C047835006B51D5 /* sildeShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5150DBD61C047835006B51D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = wzz;
+				TargetAttributes = {
+					5150DBDD1C047835006B51D5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					5150DBF61C047835006B51D5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5150DBDD1C047835006B51D5;
+					};
+					5150DC011C047835006B51D5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5150DBDD1C047835006B51D5;
+					};
+				};
+			};
+			buildConfigurationList = 5150DBD91C047835006B51D5 /* Build configuration list for PBXProject "sildeShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5150DBD51C047835006B51D5;
+			productRefGroup = 5150DBDF1C047835006B51D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5150DBDD1C047835006B51D5 /* sildeShow */,
+				5150DBF61C047835006B51D5 /* sildeShowTests */,
+				5150DC011C047835006B51D5 /* sildeShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5150DBDC1C047835006B51D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5150DBF11C047835006B51D5 /* LaunchScreen.storyboard in Resources */,
+				5150DBEE1C047835006B51D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5150DBF51C047835006B51D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5150DC001C047835006B51D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5150DBDA1C047835006B51D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5150DBE61C047835006B51D5 /* AppDelegate.m in Sources */,
+				5150DC161C0478AC006B51D5 /* XZViewController.m in Sources */,
+				5150DBE31C047835006B51D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5150DBF31C047835006B51D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5150DBFC1C047835006B51D5 /* sildeShowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5150DBFE1C047835006B51D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5150DC071C047835006B51D5 /* sildeShowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5150DBF91C047835006B51D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5150DBDD1C047835006B51D5 /* sildeShow */;
+			targetProxy = 5150DBF81C047835006B51D5 /* PBXContainerItemProxy */;
+		};
+		5150DC041C047835006B51D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5150DBDD1C047835006B51D5 /* sildeShow */;
+			targetProxy = 5150DC031C047835006B51D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5150DBEF1C047835006B51D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5150DBF01C047835006B51D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5150DC091C047835006B51D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5150DC0A1C047835006B51D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5150DC0C1C047835006B51D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sildeShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.sildeShow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5150DC0D1C047835006B51D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sildeShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.sildeShow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5150DC0F1C047835006B51D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sildeShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.sildeShowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sildeShow.app/sildeShow";
+			};
+			name = Debug;
+		};
+		5150DC101C047835006B51D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sildeShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.sildeShowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sildeShow.app/sildeShow";
+			};
+			name = Release;
+		};
+		5150DC121C047835006B51D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sildeShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.sildeShowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sildeShow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5150DC131C047835006B51D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sildeShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.sildeShowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sildeShow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5150DBD91C047835006B51D5 /* Build configuration list for PBXProject "sildeShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5150DC091C047835006B51D5 /* Debug */,
+				5150DC0A1C047835006B51D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5150DC0B1C047835006B51D5 /* Build configuration list for PBXNativeTarget "sildeShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5150DC0C1C047835006B51D5 /* Debug */,
+				5150DC0D1C047835006B51D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5150DC0E1C047835006B51D5 /* Build configuration list for PBXNativeTarget "sildeShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5150DC0F1C047835006B51D5 /* Debug */,
+				5150DC101C047835006B51D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5150DC111C047835006B51D5 /* Build configuration list for PBXNativeTarget "sildeShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5150DC121C047835006B51D5 /* Debug */,
+				5150DC131C047835006B51D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5150DBD61C047835006B51D5 /* Project object */;
+}
